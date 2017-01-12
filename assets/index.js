@@ -5,3 +5,4 @@
 //=require blocks/screen/screen.js 
 //=require blocks/note/note.js 
 //=require blocks/rightPanel/rightPanel.js 
+//=require blocks/amountInfo/amountInfo.js 

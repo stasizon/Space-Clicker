@@ -8,7 +8,7 @@ const notify = require('gulp-notify');
 const path = require('path');
 const include = require('gulp-include');
 const flatten = require('gulp-flatten');
-const rename = require("gulp-rename");
+const rename = require('gulp-rename');
 
 // --------------------------------------------------------------
 
@@ -23,7 +23,7 @@ gulp.task('html', function() {
         .pipe(pug({
             pretty: true
         }))
-        .pipe(rename("index.html"))
+        .pipe(rename('index.html'))
         .pipe(gulp.dest('app/'));
 
 });

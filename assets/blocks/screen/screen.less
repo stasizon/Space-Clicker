@@ -1,7 +1,29 @@
 .screen {
+    position: relative;
     width: 90vh;
+    min-width: 700px;
     height: 90vh;
     background-color: #25231D;
     border-radius: 100px;
     box-shadow: 0 0 20px rgba(0,0,0,0.7) inset;
+    overflow: hidden;
+
+}
+
+.rocket {
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -25px;
+    background: url('../img/rocket.png') no-repeat center / contain;
+}
+
+.target {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    font-family: "Space Mono";
+    color: #8BC34A;
 }

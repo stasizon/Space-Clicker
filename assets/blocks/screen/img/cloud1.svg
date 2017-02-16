@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 989.88655 426.20389"
+   width="989.88654"
+   height="426.20389">
+  <defs
+     id="defs8">
+    <filter
+       id="filter3639"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood3641"
+         result="flood"
+         flood-color="rgb(255,177,146)"
+         flood-opacity="1" />
+      <feComposite
+         id="feComposite3643"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur3645"
+         result="blur"
+         stdDeviation="0"
+         in="composite1" />
+      <feOffset
+         id="feOffset3647"
+         result="offset"
+         dy="-5"
+         dx="5" />
+      <feComposite
+         id="feComposite3649"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter3518"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood3520"
+         result="flood"
+         flood-color="rgb(255,177,146)"
+         flood-opacity="1" />
+      <feComposite
+         id="feComposite3522"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur3524"
+         result="blur"
+         stdDeviation="0"
+         in="composite1" />
+      <feOffset
+         id="feOffset3526"
+         result="offset"
+         dy="-1"
+         dx="8" />
+      <feComposite
+         id="feComposite3528"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter3602"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood3604"
+         result="flood"
+         flood-color="rgb(255,177,146)"
+         flood-opacity="1" />
+      <feComposite
+         id="feComposite3606"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur3608"
+         result="blur"
+         stdDeviation="0"
+         in="composite1" />
+      <feOffset
+         id="feOffset3610"
+         result="offset"
+         dy="-10"
+         dx="5" />
+      <feComposite
+         id="feComposite3612"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g9965"
+     transform="translate(-320.16715,-586.32849)">
+    <path
+       id="circle3620"
+       style="opacity:1;fill:#705e7c;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter3639)"
+       d="m 989.934,680.94366 a 48.493385,48.493385 0 0 1 -48.49339,48.49339 48.493385,48.493385 0 0 1 -48.49338,-48.49339 48.493385,48.493385 0 0 1 48.49338,-48.49338 48.493385,48.493385 0 0 1 48.49339,48.49338 z m -36.78809,-26.75494 a 48.493385,48.493385 0 0 1 -48.49338,48.49339 48.493385,48.493385 0 0 1 -48.49339,-48.49339 48.493385,48.493385 0 0 1 48.49339,-48.49338 48.493385,48.493385 0 0 1 48.49338,48.49338 z m -43.47684,15.60706 a 62.985661,62.985661 0 0 1 -62.98566,62.98566 62.985661,62.985661 0 0 1 -62.98566,-62.98566 62.985661,62.985661 0 0 1 62.98566,-62.98566 62.985661,62.985661 0 0 1 62.98566,62.98566 z m -30.09936,13.3775 a 62.985661,62.985661 0 0 1 -62.98566,62.98566 62.985661,62.985661 0 0 1 -62.98567,-62.98566 62.985661,62.985661 0 0 1 62.98567,-62.98566 62.985661,62.985661 0 0 1 62.98566,62.98566 z"
+       transform="matrix(1.1363044,0,0,1.214535,-125.03736,-85.694127)" />
+    <g
+       id="g9907">
+      <path
+         transform="matrix(1.1363044,0,0,1.214535,-125.03736,-85.694127)"
+         id="path3368"
+         d="m 618.00781,581.53711 a 115.08828,111.1469 0 0 0 -93.41406,46.39062 115.08828,111.1469 0 0 0 -92.61914,108.89844 115.08828,111.1469 0 0 0 115.08789,111.14844 115.08828,111.1469 0 0 0 82.22852,-33.53516 111.00713,107.20551 0 0 0 93.41796,49.30078 A 111.00713,107.20551 0 0 0 833.7168,756.5332 111.00713,107.20551 0 0 0 723.875,649.38477 115.08828,111.1469 0 0 0 618.00781,581.53711 Z"
+         style="opacity:1;fill:#705e7c;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter3518)" />
+      <path
+         transform="matrix(1.1363044,0,0,1.214535,-125.03736,-85.694127)"
+         d="m 1221.8102,729.43704 a 92.527611,92.527611 0 0 1 -92.5276,92.52761 92.527611,92.527611 0 0 1 -92.5276,-92.52761 92.527611,92.527611 0 0 1 92.5276,-92.52762 92.527611,92.527611 0 0 1 92.5276,92.52762 z m -109.2494,15.60705 a 92.527611,92.527611 0 0 1 -92.5276,92.52761 92.527611,92.527611 0 0 1 -92.52761,-92.52761 92.527611,92.527611 0 0 1 92.52761,-92.52761 92.527611,92.527611 0 0 1 92.5276,92.52761 z m -117.0529,42.36206 a 92.527611,92.527611 0 0 1 -92.52761,92.52761 92.527611,92.527611 0 0 1 -92.52761,-92.52761 92.527611,92.527611 0 0 1 92.52761,-92.52761 92.527611,92.527611 0 0 1 92.52761,92.52761 z"
+         style="opacity:1;fill:#705e7c;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter3602)"
+         id="circle3560" />
+    </g>
+  </g>
+</svg>

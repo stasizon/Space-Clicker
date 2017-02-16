@@ -1,38 +1,32 @@
 .commanderSign {
 
-    position: relative;
-    width: 270px;
-    height: 60px;
-    background-color: #8D6E63;
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
-
-    &::after {
-        position: absolute;
-        content: '';
-        top: 5px;
-        left: 5px;
-        width: 260px;
-        height: 50px;
-        box-shadow: 0 0 50px rgba(0,0,0,0.6) inset;
-    }
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
 
     &__title {
-        font-family: Teko;
-        font-size: 30px;
         color: #424242;
         line-height: 60px;
+        color: #adb5bd;
+        font-weight: 300;
+        margin-right: 10px;
     }
 
     &__name {
-        font-family: Damion;
-        font-size: 30px;
         line-height: 50px;
-        text-decoration: underline;
+        color: #ced4da;
+        font-weight: 400;
+        margin-right: 10px;
+    }
+
+    &__icon {
+        cursor: pointer;
     }
 
 }

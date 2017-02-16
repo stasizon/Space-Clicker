@@ -2,55 +2,37 @@
     position: relative;
     width: 320px;
     height: 110px;
-    border-radius: 50px;
     background-color: #424242;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5) inset;
     margin-top: 50px;
-
-    &__layer {
-        border-radius: 50px;
-
-        &:nth-child(1) {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            width: 300px;
-            height: 90px;
-            background: #1e2717;
-            content: '';
-            box-shadow: 0 0 20px rgba(0,0,0,0.7) inset;
-        }
-
-        &:nth-child(2) {
-            position: absolute;
-            display: -webkit-flex;
-            display: -ms-flex;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-around;
-            top: 0px;
-            left: 0px;
-            width: 320px;
-            height: 110px;
-            content: '';
-            padding: 0 50px;
-            box-sizing: border-box;
-        }
-
-    }
+    background-color: #212529;
+    text-align: center;
 
     &__text {
         font-family: "Space Mono";
-        font-size: 70px;
         color: #8BC34A;
+
+        &_big {
+            font-size: 60px;
+            line-height: 50px;
+        }
+
+        &_small {
+            font-size: 20px;
+            line-height: 20px;
+        }
+
     }
 
-    &__devider {
-        width: 0px;
-        height: 70%;
-        border: 1px dotted #FAFAFA;
-        opacity: 0.3;
+    &__column {
+        height: 100%;
+        align-items: center;
+        justify-content: space-around;
     }
 
+}
+
+#counterPerSecond::before {
+    text-transform: uppercase;
+    content: 'Per second: ';
 }

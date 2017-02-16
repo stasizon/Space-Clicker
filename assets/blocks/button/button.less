@@ -1,74 +1,23 @@
 .button {
+    position: relative;
 
+    min-width: 280px;
+    min-height: 280px;
     margin-top: auto;
     margin-bottom: auto;
-    position: relative;
-    width: 280px;
-    height: 280px;
-    box-shadow: 0 0 10px rgba(0,0,0,1) inset;
-    border-radius: 50%;
+
     cursor: pointer;
 
-    &__layer {
+    border-radius: 50%;
+    background: #f03e3e;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    transition: all 0.2s;
 
-        border-radius: 50%;
 
-        &:nth-child(1) {
-            position: absolute;
-            top: 5px;
-            left: 5px;
-            width: 270px;
-            height: 270px;
-            background-color: #CFD8DC;
-        }
-
-        &:nth-child(2) {
-            display: -webkit-flex;
-            display: -ms-flex;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            position: absolute;
-            top: 15px;
-            left: 15px;
-            width: 250px;
-            height: 250px;
-            background: linear-gradient(#f44336, #b71c1c);
-            box-shadow: 0 0 30px rgba(0,0,0,1);
-            transition: all 0.3s;
-
-            &::after {
-                position: absolute;
-                top: 0;
-                left: 0;
-                content: '';
-                width: 100%;
-                height: 100%;
-                background: linear-gradient(#f44336, #b71c1c);
-                opacity: 0.5;
-                border-radius: 50%;
-            }
-
-            & span {
-                color: #FAFAFA;
-                font-family: Teko;
-                text-transform: uppercase;
-
-                &:nth-child(1) {
-                    margin-top: 20px;
-                    font-size: 90px;
-                    line-height: 50px;
-                }
-
-                &:nth-child(2) {
-                    font-size: 25px;
-                }
-
-            }
-
-        }
-
+    &_active {
+        transform: scale(0.98);
+        transition: all 0.2s;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
 
 }

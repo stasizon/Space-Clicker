@@ -4,7 +4,8 @@
         "cost": 15,
         "produce": 0.5,
         "amount": 0,
-        "image": "worker.svg"
+        "image": "worker.svg",
+        "state": false
     },
 
     {
@@ -12,14 +13,7 @@
         "cost": 100,
         "produce": 2,
         "amount": 0,
-        "image": "engineer.svg"
-    },
-
-    {
-        "name": "Engineer",
-        "cost": 100,
-        "produce": 2,
-        "amount": 0,
-        "image": "engineer.svg"
+        "image": "engineer.svg",
+        "state": false
     }
 ]

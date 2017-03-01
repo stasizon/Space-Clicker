@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Worker",
+        "cost": 15,
+        "produce": 0.5,
+        "amount": 0,
+        "image": "worker.svg",
+        "state": false
+    },
+
+    {
+        "name": "Engineer",
+        "cost": 100,
+        "produce": 2,
+        "amount": 0,
+        "image": "engineer.svg",
+        "state": false
+    }
+]

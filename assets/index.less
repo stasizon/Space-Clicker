@@ -1,6 +1,28 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #424242;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.row {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
 }
 
 @import "blocks/leftPanel/leftPanel.less";
@@ -8,5 +30,6 @@ body {
 @import "blocks/counter/counter.less";
 @import "blocks/button/button.less";
 @import "blocks/screen/screen.less";
-@import "blocks/note/note.less";
+@import "blocks/upgrade/upgrade.less";
 @import "blocks/rightPanel/rightPanel.less";
+@import "blocks/rocket/rocket.less";

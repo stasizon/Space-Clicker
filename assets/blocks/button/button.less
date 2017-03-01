@@ -1,0 +1,23 @@
+.button {
+    position: relative;
+
+    min-width: 280px;
+    min-height: 280px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    cursor: pointer;
+
+    border-radius: 50%;
+    background: #f03e3e;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    transition: all 0.2s;
+
+
+    &_active {
+        transform: scale(0.98);
+        transition: all 0.2s;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+}

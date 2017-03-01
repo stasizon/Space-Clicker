@@ -1,0 +1,41 @@
+.rocket {
+    position: absolute;
+
+    &_type_1 {
+        background: url('./img/rocket.png') no-repeat center / contain;
+    }
+
+    &_type_2 {
+        background: url('./img/rocket2.png') no-repeat center / contain;
+    }
+
+    &_type_3 {
+        background-color: green;
+    }
+
+    &_size_1 {
+        width: 25px;
+        height: 50px;
+        animation: rocketUp 10s linear 0s 1 alternate forwards;
+    }
+
+    &_size_2 {
+        width: 50px;
+        height: 100px;
+        z-index: 2;
+        animation: rocketUp 5s linear 0s 1 alternate forwards;
+    }
+
+    &_size_3 {
+        width: 100px;
+        height: 200px;
+        z-index: 4;
+        animation: rocketUp 3s linear 0s 1 alternate forwards;
+    }
+
+}
+
+@keyframes rocketUp {
+    0%   {bottom: -20%;}
+    100% {bottom: 150%;}
+}

@@ -15,5 +15,33 @@
         "amount": 0,
         "image": "engineer.svg",
         "state": false
+    },
+
+    {
+        "name": "Designer",
+        "cost": 500,
+        "produce": 5,
+        "amount": 0,
+        "image": "designer.svg",
+        "state": false
+    },
+
+    {
+        "name": "Inventor",
+        "cost": 1500,
+        "produce": 10,
+        "amount": 0,
+        "image": "inventor.svg",
+        "state": false
+    },
+
+    {
+        "name": "Manager",
+        "cost": 3500,
+        "produce": 15,
+        "amount": 0,
+        "image": "manager.svg",
+        "state": false
     }
+
 ]

@@ -45,7 +45,7 @@ var view = {
                 template.getElementsByClassName('upgrade__cost')[0].innerHTML = model.upgrades[i].cost;
                 template.getElementsByClassName('upgrade__produce')[0].innerHTML = model.upgrades[i].produce;
                 template.getElementsByClassName('upgrade__img')[0].style.background =
-                        'url(./img/' + model.upgrades[i].name.toLowerCase() + '.svg) no-repeat center / contain';
+                        'url(./img/' + model.upgrades[i].name.toLowerCase() + '.svg) no-repeat center / 100%';
                 template.setAttribute('num', i);
                 template.onclick = function() {
                     model.setUpgrade(this.getAttribute('num'));
